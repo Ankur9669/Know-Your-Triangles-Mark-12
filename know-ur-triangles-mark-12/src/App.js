@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className = "app-heading">
+        Welcome To Fun With Triangles
       </header>
+        <div className = "grid">
+          <div className = "section-1 center-vertical-horizontal hover-effect">
+            <label>Angles of Triangle</label>
+          </div>
+          <div className = "section-2 center-vertical-horizontal hover-effect">
+            <label>Check Hypotenuse</label>
+          </div>
+          <div className = "section-3 center-vertical-horizontal hover-effect">
+            <label>Calculate Area</label>
+          </div>
+          <div className = "section-4 center-vertical-horizontal hover-effect">
+            <label>Take a quiz</label>
+          </div>
+      </div>
     </div>
   );
 }
