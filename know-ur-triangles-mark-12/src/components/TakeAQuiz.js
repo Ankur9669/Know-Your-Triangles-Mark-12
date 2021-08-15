@@ -163,7 +163,7 @@ function TakeAQuiz()
             </div>
 
             <div className = "question-answer-container">
-                <label className = "question">1. If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?</label>
+                <label className = "question">7. If a triangle has 2 angles of 750. What is the measure of third angle in degree?</label>
                 <label className = "option">
                     <input type = "radio" name = "answer7" value = "25" id = "1" onChange = {() => setAns7(1)}></input>
                     25
@@ -181,7 +181,7 @@ function TakeAQuiz()
             </div>
 
             <div className = "question-answer-container">
-                <label className = "question">1. If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?</label>
+                <label className = "question">8. If a triangle has 2 sides with equal lengths and 600 angle between them. What is the type of triangle?</label>
                 <label className = "option">
                     <input type = "radio" name = "answer8" value = "Yes" id = "1" onChange = {() => setAns8(1)}></input>
                     Equilateral
